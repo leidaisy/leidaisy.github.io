@@ -1,0 +1,118 @@
+
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
+@import url(http://fonts.googleapis.com/css?family=Spinnaker);
+@import url(http://fonts.googleapis.com/css?family=Short+Stack);
+
+
+body{ 
+	background-image: url('../img/sunrise.jpg');
+	background-size: cover; 
+	background-position:  0 20%;
+	background-attachment: fixed;
+	margin: auto;
+}
+
+body{
+	position: relative;
+	width: 960px;
+	margin: 0 auto; 
+	font-family: 'Spinnaker', 'sans-serif';
+	font-size: 14px;
+} 
+
+header{
+	margin-top: 30px;
+	margin-left: 230px;
+	font-size: 48pt;
+	font-family: 'Luckiest Guy', 'cursive';
+	color:orange;
+
+}
+
+
+
+nav ul{
+	width: 1000px;
+	height: 30px;
+	margin-left: 30px;
+	font-family: 'Chelsea Market', 'cursive';
+
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li {
+	float:left;
+	position: relative;
+	border-style: solid;
+	border-color:white; 
+}
+
+nav ul a{
+	display: inline-block;
+	padding:5px;
+	text-align: center;
+	color:#333;
+	background: gold;
+	text-decoration: none;
+	width: 250px;
+}
+
+nav ul a:hover{
+	color:orange;
+/*	background: #d00;*/
+}
+
+nav ul ul {
+	padding:0;
+	list-style: none;
+	position: absolute;
+	left:-9999999px;
+	}	
+
+nav ul ul li{
+	padding-top:1px;
+	float:left;
+	}	
+
+nav ul ul li a{
+	white-space: nowrap;
+	width:300px;
+	display: block;
+}
+
+nav ul li:hover ul{
+	left:0;
+	}
+
+#contact{
+	background-color: rgba(255,215,0,0.6);
+	text-align: center;
+	width:800px; margin:0 auto;color:black;
+	}	
+	
+article #container{
+	background-color: rgba(255,215,0,0.6);
+	height:400px;
+	width:800px;
+	margin:0 auto;
+	border-style:dashed;
+	border-color: white;
+	color:black; 
+	margin-top: 40px;
+}
+
+img{
+	background-color:rgba(0,250,154,0.3); 
+	margin-left:380px;
+	margin-top: 30px;
+}
+
+h1{
+	font-size:20pt;
+	font-family: 'Short Stack', 'cursive';
+
+}
