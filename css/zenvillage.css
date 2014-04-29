@@ -5,85 +5,36 @@
 
 
 
+body{
+	background-image: none;
+}
+
+
 header{
-	margin-top: 100px;
+	margin-top: 50px;
 	text-align: center;
 	font-size: 30pt;
 	font-family: 'Luckiest Guy', 'cursive';
 	color:orange;
-
 }
 
 
-nav ul{
-	width: 1000px;
-	height: 30px;
-	margin-left: 180px;
-	font-family: 'Chelsea Market', 'cursive';
-	list-style: none;
-}
-
-
-nav ul li {
-	float:left;
-	position: relative;
-	border-style: solid;
-	border-color:white; 
-}
-
-nav ul a{
-	display: inline-block;
-	padding:5px;
-	text-align: center;
-	color:#333;
-	background: gold;
-	text-decoration: none;
-	width: 250px;
-}
-
-nav ul a:hover{
-	color:orange;
-/*	background: #d00;*/
-}
-
-nav ul ul {
-	padding:0;
-	list-style: none;
-	position: absolute;
-	left:-9999999px;
-	}	
-
-nav ul ul li{
-	padding-top:1px;
-	float:left;
-	}	
-
-nav ul ul li a{
-	white-space: nowrap;
-	width:300px;
-	display: block;
-}
-
-nav ul li:hover ul{
-	margin-left: 180px;
-	left:0;
-	}
 	
 h1{
 	font-family: 'Short Stack', 'cursive';
 	font-size: 30pt;
 	color:orange;
 	text-align: center;
-	margin-top: -10px;
+	margin-top: 10px;
 }
 
 
 img {
 	margin-left:300px;
 	margin-top: -320px;
+	margin-bottom: 50px;
 }
 article {
-	background-color: rgba(255,255,255,0.6);
 	color:black; 
 	position: relative;
 	width: 800px;
@@ -92,7 +43,7 @@ article {
 	font-size: 14px;
 	border-style:dashed; 
 	border-color: white;
-	margin-top: 50px;
+	margin-top: -30px;
 
 } 
 article h2{
@@ -106,7 +57,7 @@ a{
 }
 
 #download {
-	margin-top: -70px;
+	margin-top: -110px;
 }
 
 

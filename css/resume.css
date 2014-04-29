@@ -1,7 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
-@import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
-@import url(http://fonts.googleapis.com/css?family=Spinnaker);
-@import url(http://fonts.googleapis.com/css?family=Short+Stack);
+
 @import url(http://fonts.googleapis.com/css?family=Keania+One);
 
 body{ 
@@ -21,78 +18,26 @@ body{
 } 
 	
 
-#a ul{
-	list-style: none;
-	width: 1000px;
-	height: 30px;
-	margin-left: 30px;
-	font-family: 'Chelsea Market', 'cursive';
-}
-
-#a ul li {
-	float:left;
-	position: relative;
-	border-style: solid;
-	border-color:white; 
-}
-
-#a ul a{
-	display: inline-block;
-	padding:5px;
-	text-align: center;
-	color:#333;
-	background: gold;
-	text-decoration: none;
-	width: 250px;
-}
-
-#a ul a:hover{
-	color:orange;
-/*	background: #d00;*/
-}
-
-#a ul ul {
-	padding:0;
-	list-style: none;
-	position: absolute;
-	left:-9999999px;
-	}	
-
-#a ul ul li{
-	padding-top:1px;
-	float:left;
-	}	
-#a ul ul li a{
-	white-space: nowrap;
-	width:300px;
-	display: block;
-}
-
-#a ul li:hover ul{
-	left:0;
-	}
-
 header{
 	text-align: left;
 	margin-top: 40px;
 	font-size: 48pt;
 	font-family: 'Luckiest Guy', 'cursive';
 	color:orange;
-	position: fixed;
 }
 
 
-#b ul{
+nav#b ul{
 	list-style: none;
 	font-size: 18pt;
-	margin-top: 100px;
-	margin-left: -10px;
+	margin-top: -20px;
+	margin-left: -5px;
 	text-align: left;
 	position: fixed;
 
 }
 
-#b ul a{
+nav#b ul a{
 	display: block;
 	color:orange;
 	padding: 5px;
@@ -101,18 +46,21 @@ header{
 	width: 200px;
 }
 
-#b ul a:hover{
-	color:deepskyblue;
+nav#b ul a:hover{
+	color:rgb(255,215,0);
 	text-decoration: none;
 	}
 
-header,#b ul{
-	margin-left: 70px;
+header{
+	margin-left: 80px;
 }
 
 #container{
+padding: 10px;
+width: 500px;
 margin-left: 370px;
-margin-top: 50px;
+margin-top: -10px;
+margin-bottom: 70px;
 background-color: rgba(255,215,0,0.6);
 }
 
@@ -120,81 +68,9 @@ h2{
 	font-family: 'Keania One', 'cursive';
 }
 
-
-
-
-
-
-/*h1 {
-	text-align: center;
-	font-family: "New Times Roman";
-	font-size: 50px;
-	border-bottom: solid 10px #000 
-}
-
-img {
-	margin-left:30%;
-	margin-top: 3em;
+a{
+	text-decoration: underline;
+	color:black;
 }
 
 
-nav ul {
-	list-style-type: none;
-	padding: 0;
-}
-
-nav ul li{
-	display: inline;
-	margin: 1em;
-}
-
-nav ul li:first-child {
-	position: relative;
-	margin-left: 160px;
-} 
-
-nav ul li a {
-	padding:0.5em 1em;
-	background: #eee;
-	border:1px solid #ccc;
-font-family: "helvetica";
-font-size: 20px;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-}
-
-
-#contact{
-		position: relative;
-	top: -120px;
-	list-style-type: none;
-	margin-left: 50%; 
-}
-
-h2 {
-	margin-top: -70px;
-	margin-left: 20px;
-	font-family: "Times new Roman";
-	font-size: 40px;
-	color: orange;
-}
-
-.right {
-	background-color: #F0FFF0;
-	font-size: 20px;
-text-align: left;
-margin-left: 320px;
-position:relative;
-top:-75px;
-}
-
-em {
-text-align: left;	
-color: orange;
-}
-strong {
-font-family: "helvetica";
-font-size: 20px;
-color: #32CD32;
-}

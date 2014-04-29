@@ -3,23 +3,41 @@
 	background: transparent;
 	font-size: 12pt;
 	font-family: serif;
+
 }
 
 @page{
 	margin: 0.5in;
 }
 
-#a,#b{
+body{
+	background-image:none;
+	background-color: white;
+
+
+}
+header{
+	font: 40px bold;
+	text-align: center;
+	color:black;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+h2{
+	font-family:sans-serif;
+	border-bottom: solid 2px;
+}
+nav, nav#b{
 	display: none;
 }
 
-header{
-  text-align: center;
-  font-size: 20pt;
-  position: absolute;
-}
 
 #container {
+  background-color: white;
   margin: 0;
   width: 100%;
 }
