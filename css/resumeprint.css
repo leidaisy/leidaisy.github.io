@@ -15,12 +15,7 @@ body{
 	background-color: white;
 }
 
-header{
-	font: 40px bold;
-	text-align: center;
-	color:black;
-	margin:0;
-}
+
 
 a{
 	text-decoration: none;
@@ -37,8 +32,16 @@ nav, nav#b{
 
 
 .container {
+	margin: 120px 0 0 0;
   background-color: white;
-  margin: 0;
   width: 100%;
 }
 
+header{
+	font: 40px;
+	font-weight: bold;
+	margin: -120px 0 0 ;
+	text-align: left;
+	color:black;
+	font-family: serif;
+}
