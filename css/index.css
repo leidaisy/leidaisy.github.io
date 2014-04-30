@@ -132,7 +132,7 @@ nav#b ul a:hover{
 h1{
 	font-size:20px;
 	font-family: 'Short Stack', 'cursive';
-
+	margin-top: -10px;
 }
 
 img {
@@ -142,6 +142,7 @@ img {
 
 h2{
 	font-family: 'Keania One', 'cursive';
+	color:orange;
 }
 
 a{
@@ -160,9 +161,6 @@ article {
 	margin-top: -30px;
 } 
 
-h2{
-	color:orange;
-}
 
 #download {
 	margin-top: -150px;
