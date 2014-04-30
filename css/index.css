@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
 @import url(http://fonts.googleapis.com/css?family=Spinnaker);
 @import url(http://fonts.googleapis.com/css?family=Short+Stack);
+@import url(http://fonts.googleapis.com/css?family=Keania+One);
 
 
 body{ 
@@ -139,7 +140,30 @@ img {
   margin: 0 auto;
 }
 
+h2{
+	font-family: 'Keania One', 'cursive';
+}
+
 a{
 	text-decoration: underline;
 	color: black;
+}
+
+article {
+	background-color: none;
+	position: relative;
+	width: 800px;
+	margin: 0 auto; 
+	font-family: 'Spinnaker', 'sans-serif';
+	font-size: 14px;
+	border:none;
+	margin-top: -30px;
+} 
+
+article h2{
+	color:orange;
+}
+
+#download {
+	margin-top: -150px;
 }

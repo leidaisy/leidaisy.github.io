@@ -4,47 +4,27 @@ body{
 
 header{
 	font-size: 30pt;
-	font-family: 'Luckiest Guy', 'cursive';
 	margin-top: 50px;
 }
 
 	
 h1{
-	font-family: 'Short Stack', 'cursive';
 	font-size: 30pt;
-	color:orange;
 	text-align: center;
 	margin-top: -10px;
 }
 
 
 img {
-	display:block;
 	margin-left:200px;
 	margin-top: -150px;
 	margin-bottom: 50px;
 }
-article {
-	background-color: none;
-	color:black; 
-	position: relative;
-	width: 800px;
-	margin: 0 auto; 
-	font-family: 'Spinnaker', 'sans-serif';
-	font-size: 14px;
-	border:none;
-	margin-top: -30px;
 
-} 
-article h2{
-	color:orange;
-}
 
 a{
 	color: orange
 }
 
-#download {
-	margin-top: -150px;
-}
+
 

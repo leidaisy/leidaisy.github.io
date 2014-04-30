@@ -1,29 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
-@import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
-@import url(http://fonts.googleapis.com/css?family=Spinnaker);
-@import url(http://fonts.googleapis.com/css?family=Short+Stack);
-
-
-
 body{
 	background-image: none;
 }
 
-
 header{
-	margin-top: 50px;
-	text-align: center;
 	font-size: 30pt;
-	font-family: 'Luckiest Guy', 'cursive';
-	color:orange;
+	margin-top: 50px;
 }
 
-
-	
 h1{
-	font-family: 'Short Stack', 'cursive';
 	font-size: 30pt;
-	color:orange;
 	text-align: center;
 	margin-top: 10px;
 }
@@ -34,30 +19,12 @@ img {
 	margin-top: -320px;
 	margin-bottom: 50px;
 }
-article {
-	color:black; 
-	position: relative;
-	width: 800px;
-	margin: 0 auto; 
-	font-family: 'Spinnaker', 'sans-serif';
-	font-size: 14px;
-	border-style:dashed; 
-	border-color: white;
-	margin-top: -30px;
 
-} 
-article h2{
-	color:orange;
-}
 
 a{
-	text-decoration: none;
 	color: orange;
 
 }
 
-#download {
-	margin-top: -110px;
-}
 
 
